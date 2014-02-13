@@ -38,4 +38,4 @@ App.DogsNewRoute = Ember.Route.extend({
 
 App.HeaderView = Ember.View.extend({
   templateName: "header"
-})
+});

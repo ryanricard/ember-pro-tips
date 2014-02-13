@@ -19,13 +19,6 @@
     </div>
   </script>
 
-  <script type="text/x-handlebars" id="header">
-    <div class="clearfix">
-      <h2 class="left">{{view.name}}</h2>
-      <span class="right">{{timestamp}}</span>
-    </div>
-  </script>
-
   <script type="text/x-handlebars" id="dogs">
     <div class="panel">
       {{view App.HeaderView name="Dogs Resource Template"}}
@@ -38,7 +31,7 @@
     <div class="panel">
       {{view App.HeaderView name="Dogs Index Template"}}
 
-      {{#link-to "dogs.new"}}Add New Dog{{/link-to}}
+      {{#link-to "dogs.new" class="button"}}Add a new dog{{/link-to}}
     </div>
   </script>
 
@@ -46,10 +39,16 @@
     <div class="panel">
       {{view App.HeaderView name="Dogs New Template"}}
 
-      {{#link-to "dogs.index"}}Back to dogs{{/link-to}}
+      {{#link-to "dogs.index" class="button"}}Back to dogs{{/link-to}}
     </div>
   </script>
 
+  <script type="text/x-handlebars" id="header">
+    <div class="clearfix">
+      <h2 class="left">{{view.name}}</h2>
+      <h2 class="right">{{timestamp}}</h2>
+    </div>
+  </script>
 
   <script src="js/libs/jquery-1.10.2.js"></script>
   <script src="js/libs/handlebars-1.1.2.js"></script>

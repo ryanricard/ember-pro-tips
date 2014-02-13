@@ -10,6 +10,10 @@
   margin-bottom: 20px;
 }
 
+.ember-application .button {
+  font-size: 1.5em;
+}
+
 .details {
   margin-top: 50px;
 }
