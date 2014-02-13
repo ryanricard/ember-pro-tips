@@ -2,3 +2,14 @@
 .ember-application {
     margin: 20px;
 }
+
+.ember-application h1,
+.ember-application h2,
+.ember-application h3,
+.ember-application h4 {
+  margin-bottom: 20px;
+}
+
+.details {
+  margin-top: 50px;
+}
